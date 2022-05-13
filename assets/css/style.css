@@ -18,20 +18,18 @@
         background-color: #EE1F1F;
         color: #ffffff;
         font-family: 'Koulen', cursive;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 5px 20px 5px 20px;
         margin-top: 20px;
         min-width: 50%;
         font-size: 2rem;
-        border: 1px solid white;
+        border-radius: 8px;
+        border: none;
     }
     #homePage{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 100vh;
+        height: 90vh;
         align-items: center;
     }
 }
