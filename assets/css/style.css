@@ -12,18 +12,22 @@
         font-family: 'Bangers', cursive;
         width: 60%;
         text-align: center;
+        font-size: 3rem;
     }
     #proceedBtn{
         background-color: #EE1F1F;
         color: #ffffff;
         font-family: 'Koulen', cursive;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-top: 20px;
-        width: 30%;
+        min-width: 50%;
+        font-size: 2rem;
+        border: 1px solid white;
     }
     #homePage{
-        border: 1px solid;
         display: flex;
         flex-direction: column;
         justify-content: center;
