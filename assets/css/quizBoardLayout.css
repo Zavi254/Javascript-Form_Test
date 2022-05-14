@@ -11,7 +11,6 @@ form{
     flex-direction: column;
     align-items: flex-start;
     color: white;
-    font-weight: bold;
     background-color:#808080 ;
 }
 form:hover{
@@ -23,14 +22,13 @@ form > * :not(h1){
     margin-bottom: 10px;
 }
 form > h1{
-    font-size: 1.5rem;
     color: black;
     font-family: 'Anton', sans-serif;
 }
 @media only screen and (max-width:768px){
     h1{
         text-align: center;
-        font-size: 2.3rem;
+        font-size: 1.2rem;
         color: #fff;
         margin-bottom: 20px;
     }
@@ -41,8 +39,9 @@ form > h1{
         align-items: center;
     }
     form{
-        padding: 15px;
-        height: 200px;
+        padding: 10px;
+        width: 90%;
+        height: auto;
         border-radius: 8px;
         margin-top: 20px;
         
