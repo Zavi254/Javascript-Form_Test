@@ -6,28 +6,92 @@
 body{
     background-color: #1E3E59;
 }
-h1{
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 2.8rem;
-    color: #fff;
-    margin-bottom: 20px;
-}
-.quizBoardSection{
+form{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-form{
+    align-items: flex-start;
+    color: white;
+    font-weight: bold;
     background-color:#808080 ;
-    width: 90%;
-    height: 400px;
-    border-radius: 8px;
-    margin-top: 20px;
-    
+}
+form > * :not(h1){
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+form > h1{
+    font-size: 1.5rem;
+    color: black;
+}
+@media only screen and (max-width:768px){
+    h1{
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 2.3rem;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .quizBoardSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    form{
+        padding: 15px;
+        height: 200px;
+        border-radius: 8px;
+        margin-top: 20px;
+        
+    }
+}
+@media only screen and (min-width:769px) and (max-width:1440px){
+    h1{
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 2.3rem;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .quizBoardSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    form{
+        background-color:#808080 ;
+        padding: 15px;
+        height: 200px;
+        border-radius: 8px;
+        margin-top: 20px;
+        
+    }
 }
 
-@media only screen and (max-width:768px){
-   
+
+
+@media only screen and (min-width:1440px){
+    h1{
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        font-size: 2.3rem;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .quizBoardSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    form{
+        background-color:#808080 ;
+        /* width: 20%; */
+        height: 200px;
+        border-radius: 8px;
+        margin-top: 20px;
+        margin: auto;
+        padding: 20px;
+        
+    }
 }
