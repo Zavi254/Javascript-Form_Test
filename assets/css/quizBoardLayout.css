@@ -25,6 +25,11 @@ form > h1{
     color: black;
     font-family: 'Anton', sans-serif;
 }
+#submitBtn{
+    cursor: pointer;
+    background-color: #2E76CF;
+    color: #fff;
+}
 @media only screen and (max-width:768px){
     h1{
         text-align: center;
@@ -46,6 +51,14 @@ form > h1{
         margin-top: 20px;
         
     }
+    #submitBtn{
+        margin-top: 20px;
+        padding: 5px 20px 5px 20px;
+        max-width: 60%;
+        font-size: 1.4rem;
+        border-radius: 8px;
+        border: none;
+    }
 }
 @media only screen and (min-width:769px) and (max-width:1440px){
     h1{
@@ -64,11 +77,19 @@ form > h1{
     form{
         background-color:#808080 ;
         padding: 15px;
-        height: 200px;
+        height: auto;
         border-radius: 8px;
         margin-top: 20px;
         width: 70%;
         
+    }
+    #submitBtn{
+        margin-top: 20px;
+        padding: 5px 30px 5px 30px;
+        max-width: 80%;
+        font-size: 1.6rem;
+        border-radius: 8px;
+        border: none;
     }
 }
 
@@ -91,11 +112,19 @@ form > h1{
     form{
         background-color:#808080 ;
         width: 70%;
-        height: 200px;
+        height: auto;
         border-radius: 8px;
         margin-top: 20px;
         margin: auto;
         padding: 20px;
         margin-bottom: 20px;
+    }
+    #submitBtn{
+        margin-top: 20px;
+        padding: 8px 10px 5px 8px;
+        min-width: 30%;
+        font-size: 2rem;
+        border-radius: 8px;
+        border: none;
     }
 }
