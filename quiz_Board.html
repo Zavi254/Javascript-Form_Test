@@ -14,110 +14,125 @@
     <header>
         <h1>JAVASCRIPT QUIZ BOARD</h1>
     </header>
-    <section class="quizBoardSection">
+    <section>
 
-        <form action="/action_page.php" id="firstForm">
-            <h1>1 . WHAT IS JAVASCRIPT</h1>
-            <div>
-                <input type="radio" id="markupLanguage" name="whatIsJS">
-                <label for="markupLanguage">It is a markup language</label>
-            </div>
-            <div>
-                <input type="radio" id="stylingLanguage" name="whatIsJS">
-                <label for="stylingLanguage">It is a styling language</label>
-            </div>
-            <div>
-                <input type="radio" id="programmingLanguage" name="whatIsJS">
-                <label for="programmingLanguage">It is a programming language</label>
-            </div>
-            <div>
-                <input type="radio" id="elementTag" name="whatIsJS">
-                <label for="elementTag">It is an element tag in HTML</label>
+        <form name="form">
+            <div class="quizBoardSection">
+                <div class="formQuestion">
+                    <h1>1 . WHAT IS JAVASCRIPT</h1>
+                    <div>
+                        <input type="radio" value="markupLanguage" name="whatIsJS">
+                        <label for="markupLanguage">It is a markup language</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="stylingLanguage" name="whatIsJS">
+                        <label for="stylingLanguage">It is a styling language</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="programmingLanguage" name="whatIsJS">
+                        <label for="programmingLanguage">It is a programming language</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="elementTag" name="whatIsJS">
+                        <label for="elementTag">It is an element tag in HTML</label>
+                    </div>
+                </div>
+    
+    
+                <div class="formQuestion">
+                    <h1>2 . How to write an IF statement in Javascript?</h1>
+                    <div>
+                        <input type="radio" name="ifStatement" value="ifStatementFirstChoice">
+                        <label for="ifStatementFirstChoice">if i == 5 then</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="ifStatement" value="ifStatementSecondChoice">
+                        <label for="ifStatementSecondChoice">if(i == 5){}</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="ifStatement" value="ifStatementThirdChoice">
+                        <label for="ifStatementThirdChoice">if i = 5</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="ifStatement" value="ifStatementFourthChoice">
+                        <label for="ifStatementFourthChoice">if i == 5 then</label>
+                    </div>
+                </div>
+                
+                
+                <div class="formQuestion">
+                    <h1>3 . Hyper Text Markup Language Stand For? </h1>
+                    <div>
+                        <input type="radio" name="hyperTextQuiz" value="hyperTextQuizFirst">
+                        <label for="hyperTextQuizFirst">Javascript</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="hyperTextQuiz" value="hyperTextQuizSecond">
+                        <label for="hyperTextQuizSecond">XHTML</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="hyperTextQuiz" value="hyperTextQuizThird">
+                        <label for="hyperTextQuizThird">CSS</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="hyperTextQuiz" value="hyperTextQuizFourth">
+                        <label for="hyperTextQuizFourth">HTML</label>
+                    </div>
+                </div>
+                
+                
+                <div class="formQuestion">
+                    <h1>4 . Which one is not a Javascript data type?</h1>
+                    <div>
+                        <input type="radio" name="dataTypeQuiz" value="dataTypeQuizFirst">
+                        <label for="dataTypeQuizFirst">Strings</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dataTypeQuiz" value="dataTypeQuizSecond">
+                        <label for="dataTypeQuizSecond">Functions</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dataTypeQuiz" value="dataTypeQuizThird">
+                        <label for="dataTypeQuizThird">Number</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="dataTypeQuiz" value="dataTypeQuizFourth">
+                        <label for="dataTypeQuizFourth">Boolean</label>
+                    </div>
+                </div>
+                
+                
+                <div class="formQuestion">
+                    <h1>5 . How do we call an alert box ?</h1>
+                    <div>
+                        <input type="radio" name="alertBoxQuiz" value="alertBoxQuizFirst">
+                        <label for="alertBoxQuizFirst">alert.box</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="alertBoxQuiz" value="alertBoxQuizSecond">
+                        <label for="alertBoxQuizSecond">call</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="alertBoxQuiz" value="alertBoxQuizThird">
+                        <label for="alertBoxQuizThird">Flinstone("Hello");</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="alertBoxQuiz" value="alertBoxQuizFourth">
+                        <label for="alertBoxQuizFourth">alert("Hello");</label>
+                    </div>
+                </div>
+              
+                <button id="submitBtn">SUBMIT</button>
             </div>
             
-        </form>
-
-        <form action="#" id="secondForm">
-            <h1>2 . How to write an IF statement in Javascript?</h1>
-            <div>
-                <input type="radio" name="ifStatement" id="ifStatementFirstChoice">
-                <label for="ifStatementFirstChoice">if i == 5 then</label>
-            </div>
-            <div>
-                <input type="radio" name="ifStatement" id="ifStatementSecondChoice">
-                <label for="ifStatementSecondChoice">if(i == 5)</label>
-            </div>
-            <div>
-                <input type="radio" name="ifStatement" id="ifStatementThirdChoice">
-                <label for="ifStatementThirdChoice">if i = 5</label>
-            </div>
-            <div>
-                <input type="radio" name="ifStatement" id="ifStatementFourthChoice">
-                <label for="ifStatementFourthChoice">if i == 5 then</label>
-            </div>
             
         </form>
-        <form action="#" id="thirdForm">
-            <h1>3 . Hyper Text Markup Language Stand For? </h1>
-            <div>
-                <input type="radio" name="hyperTextQuiz" id="hyperTextQuizFirst">
-                <label for="hyperTextQuizFirst">Javascript</label>
-            </div>
-            <div>
-                <input type="radio" name="hyperTextQuiz" id="hyperTextQuizSecond">
-                <label for="hyperTextQuizSecond">XHTML</label>
-            </div>
-            <div>
-                <input type="radio" name="hyperTextQuiz" id="hyperTextQuizThird">
-                <label for="hyperTextQuizThird">CSS</label>
-            </div>
-            <div>
-                <input type="radio" name="hyperTextQuiz" id="hyperTextQuizFourth">
-                <label for="hyperTextQuizFourth">HTML</label>
-            </div>
-            
-        </form>
-        <form action="#" id="forthForm">
-            <h1>4 . Which one is not a Javascript data type?</h1>
-            <div>
-                <input type="radio" name="dataTypeQuiz" id="dataTypeQuizFirst">
-                <label for="dataTypeQuizFirst">Strings</label>
-            </div>
-            <div>
-                <input type="radio" name="dataTypeQuiz" id="dataTypeQuizSecond">
-                <label for="dataTypeQuizSecond">Functions</label>
-            </div>
-            <div>
-                <input type="radio" name="dataTypeQuiz" id="dataTypeQuizThird">
-                <label for="dataTypeQuizThird">Number</label>
-            </div>
-            <div>
-                <input type="radio" name="dataTypeQuiz" id="dataTypeQuizFourth">
-                <label for="dataTypeQuizFourth">Boolean</label>
-            </div>
-            
-        </form>
-        <form action="#" id="fifthForm">
-            <h1>5 . How do we call an alert box ?</h1>
-            <div>
-                <input type="radio" name="alertBoxQuiz" id="alertBoxQuizFirst">
-                <label for="alertBoxQuizFirst">alert.box</label>
-            </div>
-            <div>
-                <input type="radio" name="alertBoxQuiz" id="alertBoxQuizSecond">
-                <label for="alertBoxQuizSecond">call</label>
-            </div>
-            <div>
-                <input type="radio" name="alertBoxQuiz" id="alertBoxQuizThird">
-                <label for="alertBoxQuizThird">Flinstone("Hello");</label>
-            </div>
-            <div>
-                <input type="radio" name="alertBoxQuiz" id="alertBoxQuizFourth">
-                <label for="alertBoxQuizFourth">alert("Hello");</label>
-            </div>
-            
-        </form>
-        <button id="submitBtn">SUBMIT</button> 
+         
     </section>
+
+
+
+
+    <script src="assets/js/index.js"></script>
 </body>
 </html>
