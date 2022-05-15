@@ -5,8 +5,10 @@ var fourthFormChoiceTwo = document.getElementById('dataTypeQuizSecond');
 var fifthFormChoiceFour = document.getElementById('alertBoxQuizFourth');
 
 
+
+
 function clickMe(){
-    if(firstFormChoiceOne.checked, secondFormChoiceTwo.checked, thirdFormChoiceFour.checked, fourthFormChoiceTwo.checked, fifthFormChoiceFour.checked){
+    if(((firstFormChoiceOne, secondFormChoiceTwo).checked && (thirdFormChoiceFour, fourthFormChoiceTwo).checked) && fifthFormChoiceFour.checked ){
         alert(`You have 100%`);
     }
 }
