@@ -17,7 +17,7 @@ based on their results.
   <ul>
     
 # Program setup instructions
-    To start using this project use the following commands:
+To start using this project use the following commands:
     
 - git clone <a href = "https://github.com/Zavi254/      Javascript-Form_Test.git">
 - cd Javascript-Form-Test
